@@ -1,0 +1,17 @@
+$blue: #1866af;
+$yellow: #f7b516;
+
+
+@mixin f900 {
+    font-family: 'Proxima Nova Bl';
+}
+
+@mixin f800 {
+    font-family: 'Proxima Nova Th';
+}
+
+@mixin f700 {
+    font-family: 'Proxima Nova Rg';
+    font-weight: 700;
+}
+
