@@ -255,6 +255,48 @@
 
 // end price-email
 
+// start advantages
+
+.advantages {
+    background-color: #08243e;
+    padding: 90px 0;
+    color: #ffffff;
+    text-align: center;
+
+    &__title {
+        @include f900;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        max-width: 395px;
+        width: 100%;
+        margin: 0 auto 90px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 270px;
+        width: 100%;
+        padding: 0 30px;
+
+        &-images {
+            height: 105px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+// end advantages
+
 @import 'media';
 
 
