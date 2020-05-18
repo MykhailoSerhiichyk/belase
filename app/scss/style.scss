@@ -57,6 +57,92 @@
 
 // end header
 
+// start main
+
+.main {
+    background-image: url(../images/content/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 860px;
+    
+    &__box {
+        background-color: $yellow;
+        max-width: 570px;
+        width: 100%;
+        padding: 90px 120px 120px 100px;
+    }
+
+    &__title {
+        font-size: 40px;
+        line-height: 55px;
+        @include f900;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        font-size: 25px;
+        line-height: 28px;
+        @include f800;
+        max-width: 290px;
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    &__list {
+
+        li {
+            font-size: 18px;
+            margin-bottom: 40px;
+            max-width: 315px;
+            width: 100%;
+            padding-left: 50px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: "";
+                width: 25px;
+                height: 30px;
+                background-image: url(../images/icons/main-li-1.png);
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+
+                &::before {
+                    background-image: url(../images/icons/main-li-4.png);
+                    width: 23px;
+                }
+            }
+
+            &.main__list-free {
+
+                &::before {
+                    background-image: url(../images/icons/main-li-2.png);
+                    width: 30px;
+                    height: 24px;
+                }
+            }
+
+            &.main__list-month {
+
+                &::before {
+                    background-image: url(../images/icons/main-li-3.png);
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+// end main
+
 @import 'media';
 
 
