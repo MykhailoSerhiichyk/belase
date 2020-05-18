@@ -195,6 +195,12 @@
                     background-color: #f2f2f2;
                     border: none;
                     padding: 0 30px;
+
+                    &::placeholder {
+                        color: #818181;
+                        font-size: 13px;
+                        text-transform: uppercase;
+                    }
                 }
             }
 
@@ -296,6 +302,107 @@
 }
 
 // end advantages
+
+// start search
+
+.search {
+    background-image: url(../images/content/search-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 580px;
+    padding: 90px 0;
+    text-align: center;
+    color: #ffffff;
+
+    &__title {
+        font-size: 30px;
+        @include f900;
+        margin-bottom: 25px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        max-width: 630px;
+        width: 100%;
+        margin: 0 auto 52px;
+    }
+
+    &__form {
+        width: 100%;
+        margin-bottom: 60px;
+
+        form {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            input,
+            label,
+            button {
+                max-width: 370px;
+                width: 100%;
+                outline: none;
+                height: 70px;
+                border: none;
+            }
+
+            input {
+                padding: 0 30px;
+                background-color: #f2f2f2;
+
+                &::placeholder {
+                    color: #818181;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+            }
+
+            label {
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../images/icons/phone-input.png);
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 30px;
+                    z-index: 1;
+                }
+            }
+
+            button {
+                cursor: pointer;
+                background-color: $yellow;
+                color: #ffffff;
+                font-size: 17px;
+                @include f700;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    &__text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    &__subtext {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    &__phone {
+        font-size: 30px;
+        @include f800;
+        color: #ffffff;
+    }
+}
+
+// end search
 
 @import 'media';
 
