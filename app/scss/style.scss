@@ -627,6 +627,36 @@
 
 // end convenience
 
+// start warehouse
+
+.warehouse {
+    background-color: #0b3554;
+    padding: 90px 0 100px;
+    color: #ffffff;
+    text-align: center;
+
+    &__title {
+        font-size: 36px;
+        line-height: 40px;
+        @include f900;
+        margin-bottom: 25px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        max-width: 652px;
+        width: 100%;
+        margin: 0 auto 90px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+// end warehouse
+
 @import 'media';
 
 
