@@ -478,7 +478,119 @@
 
 // end discounts
 
+// start questions
+
+.questions {
+    background-color: #0b3554;
+    padding: 90px 0 100px;
+    color: #ffffff;
+
+    &__title {
+        font-size: 36px;
+        line-height: 40px;
+        @include f900;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 95px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+
+        li {
+            font-size: 16px;
+            @include f700;
+            margin-bottom: 50px;
+            position: relative;
+
+            span {
+                margin-right: 28px;
+            }
+
+            &.active {
+
+                .questions__list-text {
+                    border-color: transparent;
+                    color: #579eff;
+                }
+
+                .questions__list--hover {
+                    display: block;
+                }
+            }
+        }
+
+        &-text {
+            display: inline-block;
+            border-bottom: 1px solid #678194;
+            line-height: 16px;
+            cursor: pointer;
+        }
+
+        &--hover {
+            display: none;
+            padding: 15px 42px 15px 15px;
+            position: absolute;
+            max-width: 330px;
+            width: 100%;
+            background-color: #fff;
+            color: #000;
+            z-index: 1;
+            font-size: 14px;
+            left: 40px;
+            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+            bottom: -236px;
+            transition: all .3s;
+
+            &::before {
+                position: absolute;
+                content: "";
+                border: 15px solid transparent; 
+                border-bottom: 15px solid #ffffff;
+                top: -30px;
+            }
+
+            p + p {
+                margin-top: 20px;
+            }
+        }
+
+        &-btn {
+            font-size: 14px;
+            line-height: 14px;
+            color: #ffffff;
+            border-bottom: 1px solid #678194;
+            margin-left: 38px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: "";
+                width: 18px;
+                height: 20px;
+                background-image: url(../images/icons/reload.png);
+                left: -38px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+// end questions
+
 @import 'media';
+
 
 
   
