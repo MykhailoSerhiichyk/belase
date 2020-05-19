@@ -657,6 +657,40 @@
 
 // end warehouse
 
+// start services
+
+.services {
+    padding: 90px 0;
+
+    &__title {
+        max-width: 830px;
+        width: 100%;
+        font-size: 36px;
+        line-height: 40px;
+        @include f900;
+        margin: 0 auto 95px;
+        text-align: center;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 370px;
+        width: 100%;
+        padding: 0 35px;
+        text-align: center;
+
+        &-images {
+            margin-bottom: 35px;
+        }
+    }
+}
+
+// end services
+
 @import 'media';
 
 
