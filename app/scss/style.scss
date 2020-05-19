@@ -444,6 +444,40 @@
 
 // end guarantee
 
+// start discounts
+
+.discounts {
+    background-color: #08243e;
+    padding: 90px 0;
+    color: #ffffff;
+
+    &__title {
+        font-size: 36px;
+        line-height: 42px;
+        @include f900;
+        max-width: 682px;
+        text-align: center;
+        margin: 0 auto 90px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 270px;
+        padding: 0 10px;
+        text-align: center;
+
+        &-images {
+            margin-bottom: 35px;
+        }
+    }
+}
+
+// end discounts
+
 @import 'media';
 
 
