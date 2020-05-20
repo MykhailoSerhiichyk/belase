@@ -1,0 +1,454 @@
+@media (max-width: 1200px) {
+
+    .search__form form {
+        flex-wrap: wrap;
+
+        input,
+        label,
+        button {
+            flex-basis: 80%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        input,
+        label {
+            margin-bottom: 20px;
+        }
+    }
+
+    .warehouse__inner {
+        flex-wrap: wrap;
+    }
+
+    .warehouse__item {
+        flex-basis: 50%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1060px) {
+
+    .header__phone {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header__time {
+        margin-left: 0;
+    }
+
+    .questions__inner {
+        display: block;
+    }
+
+    .questions__list {
+        max-width: 400px;
+        margin: 0 auto 40px;
+    }
+
+    .questions__images {
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .guarantee__inner,
+    .discounts__inner {
+        flex-wrap: wrap;
+    }
+
+    .guarantee__item {
+        margin-bottom: 40px;
+    }
+
+    .discounts__item {
+        flex-basis: 50%;
+        max-width: 100%;
+        margin-bottom: 40px;
+
+        &-text {
+            max-width: 260px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        &-images {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+@media (max-width: 860px) {
+
+    .price-email__form-inner {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .price-email__form form label {
+        max-width: 100%;
+        flex-basis: 100%;
+
+        & + label {
+            margin-top: 20px;
+        }
+
+        input {
+            max-width: 100%;
+        }
+    }
+
+    .price-email__form form button {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .price-email__form-text {
+        margin-left: auto;
+    }
+
+    .warehouse__item {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .advantages__inner {
+        flex-wrap: wrap;
+    }
+
+    .advantages__item {
+        flex-basis: 50%;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 0;
+        max-width: 100%;
+
+        &-images {
+            margin-bottom: 20px;
+        }
+
+        &-text {
+            max-width: 210px;
+            margin: 0 auto;
+        }
+    }
+
+    .guarantee__item {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .consultation__form form {
+        flex-wrap: wrap;
+
+        label,
+        button {
+            flex-basis: 80%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 20px;
+        }
+    }
+
+    .consultation__form form label input {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .header__inner {
+        flex-wrap: wrap;
+    }
+
+    .header__logo,
+    .header__time,
+    .header__phone,
+    .header__btn {
+        flex-basis: 45%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header__phone {
+
+        a {
+            text-align: center;
+        }
+    }
+
+    .header__btn {
+        max-width: 100%;
+    }
+
+    .services__inner {
+        flex-wrap: wrap;
+    }
+
+    .services__item {
+        flex-basis: 50%;
+        padding: 0 10px;
+        margin-bottom: 40px;
+
+        &-text {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        &-images {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+
+    .header__logo,
+    .header__time,
+    .header__phone,
+    .header__btn {
+        flex-basis: 50%;
+    }
+
+    .questions__images {
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .main__title,
+    .advantages__title,
+    .guarantee__title,
+    .discounts__title,
+    .questions__title,
+    .convenience__title,
+    .warehouse__title,
+    .services__title {
+        font-size: 30px;
+        line-height: 34px;
+        width: 100%;
+    }
+
+    .main__subtitle {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .main__box {
+        padding: 90px 60px 120px 60px;
+    }
+
+    .price-email {
+        padding-top: 15px;
+    }
+
+    .search__form form {
+
+        input,
+        label,
+        button {
+            flex-basis: 100%;
+        }
+    }
+
+    .convenience__inner {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .convenience__item {
+        margin-bottom: 40px;
+
+        &-images {
+            margin-bottom: 15px;
+        }
+    }
+
+    .warehouse {
+        padding: 60px 0;
+    }
+
+    .warehouse__subtitle {
+        margin-bottom: 60px;
+    }
+
+    .services__item {
+        flex-basis: 100%;
+        margin: 0 auto 40px;
+    }
+
+    .services__title {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 510px) {
+
+    .convenience__item {
+        flex-basis: 100%;
+        max-width: 100%;
+
+        &-text {
+            max-width: 210px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .convenience {
+        padding: 60px 0;
+    }
+
+    .convenience__subtitle {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 490px) {
+
+    .main__box {
+        padding: 60px 10px 80px 10px;
+        text-align: center;
+    }
+
+    .main__subtitle {
+        margin: 0 auto 60px;
+    }
+
+    .main__list li {
+        margin: 0 auto 40px;
+    }
+
+    .advantages__item {
+        flex-basis: 100%;
+    }
+
+    .advantages__subtitle {
+        margin-bottom: 50px;
+    }
+
+    .advantages {
+        padding: 60px 0;
+    }
+
+    .discounts__item {
+        flex-basis: 100%;
+    }
+
+    .discounts__title {
+        margin-bottom: 50px;
+    }
+
+    .consultation__form form {
+    
+        label,
+        button {
+            flex-basis: 100%;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+
+    .header__logo,
+    .header__time,
+    .header__phone,
+    .header__btn {
+        flex-basis: 100%;
+    }
+
+    .price-email__form-title {
+        text-align: center;
+    }
+
+    .price-email__form-text {
+        padding-left: 60px;
+    }
+
+    .main__list li {
+        padding-left: 40px;
+    }
+
+    .questions__list li span {
+        margin-right: 10px;
+    }
+
+    .questions__list-text {
+        border-bottom: none;
+        text-decoration: underline;
+        line-height: 20px;
+    }
+
+    .questions__list--hover {
+        left: 0;
+    }
+
+    .questions__list li {
+        display: flex;
+    }
+
+    .warehouse__item {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .footer__copy-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__copy-logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .price-email__form-text {
+        padding-left: 10px;
+    }
+
+    .price-email__form form label input {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .price-email__form form label::before {
+        right: 20px;
+    }
+
+    .search__form form input {
+        padding: 0 20px;
+    }
+
+    .search__form form label::before {
+        right: 20px;
+    }
+
+    .main__title {
+        font-size: 28px;
+    }
+
+    .consultation__form form label input {
+        padding: 0 20px;
+    }
+
+    .consultation__form form label::after {
+        right: 20px;
+    }
+}
